@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #3a2b2f; /* coklat gelap manis */
+    background-color: #ffe6f0; /* pink pastel muda */
+    line-height: 1.6;
+    padding: 10px;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+h1, h2, h3 {
+    color: #b03060; /* rose pink agak gelap */
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-bottom: 1em;
+    color: #6b4a4f; /* pink coklat lembut */
+    font-size: 1rem;
+}
+
+article {
+    background-color: #ffc7dd; /* pink strawberry milk */
+    border: 1px solid #f3aec7; /* pink lembut */
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    flex: 2;
+}
+
+aside {
+    flex: 1;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.grid-container .item {
+    background-color: #ffb3cf; /* pink blossom */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1); 
+    text-align: center;
+}
+
+/* === Responsive === */
+
+/* HP kecil */
+@media (max-width: 480px) {
+    body {
+        background-color: #ffd4e6; /* pink lebih gelap */
+    }
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Tablet kecil */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    main {
+        flex-direction: column;
+    }
+}
+
+/* Tablet lebar – Laptop kecil */
+@media (min-width: 768px) {
+    main {
+        flex-direction: row;
+    }
+}
+
+/* Laptop – Desktop */
+@media (min-width: 1024px) {
+    main {
+        max-width: 1200px;
+        margin: auto;
+    }
+    body {
+        font-size: 18px;
+    }
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+}
+
+nav {
+    transition: 0,3 ease;
+
+}
+
+nav.show-nav {
+    opacity: 1;
+    pointer-events: auto;
+}
+nav {
+    opacity: 0;
+    pointer-events: none;
+}
+body.dark {
+    background-color: #b03060;
+    color: #6b4a4f;
+}
+body.dark nav a {
+    color:#f3aec7
+}
+/* Header berubah warna saat hover */
+header:hover {
+    background-color: #ffcedf; /* pink pastel estetik */
+    transition: background-color 0.3s ease;
+}
+
+/* Ukuran font navbar (default) */
+nav ul {
+    font-size: 18px;
+    transition: font-size 0.3s ease;
+    color: #d84a78; /* pink soft aesthetic */
+}

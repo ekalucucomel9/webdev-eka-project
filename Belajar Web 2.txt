@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset=UTF-8">
+    <meta name="viewpotr" content="width=device-width" initial-scale=1,0">
+    <title>Portofolio Pribadi - Eka lestari</title>
+</head>
+<body>
+
+    <header>
+        <h1>Portofolio Saya</h1>
+        <Selamat datang di halaman pribadi saya!></p>
+    </header>
+
+
+    <nav>
+        <ul>
+            <li><a href="#tentang">Tentang Saya</a></li>
+            <li><a href="#tentang">Keahlian</a></li>
+            <li><a href="#Kontak">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <p>Halo! Nama saya Eka lestari Alamat Maccedde, seorang Mahasiswi yang memiliki ketertaritan dalam lingkungan belajar yang kolaboratif karena memungkinkan saya untuk membangun relasi dan meningkatkan kemampuan komunikasi.</p>
+            
+            <article>
+                <h3>Pendidikan</3>
+                    <p>Saya sedang menempuh Pendidikan di Universitas Muhammadiyah Bone dengan jurusan Teknologi Pendidikan Semester 5.</p>
+                </aricle>
+            </section>
+            
+            <section id="keahlian"><h2>
+                <Berikut beberapa keahlian utama yang saya miliki></p>
+
+                    <article>
+                        <h3>Teknologi digital Microsoft Word</3>
+                            <p>Mampu menggunakan Microsoft Word untuk membuat laporan seperti makalah, dan membuat dokumen lainnya.</p>
+                        </article>
+
+                        <article>
+                            <h3>Presentasi PowerPoint</h3>
+                            <p>mampu membuat presentasi di powert poin dengan desain yang menarik dan mudah di pahami saat dipresentasikan.</p>
+                        </article>
+                    </section>
+
+                    <aside>
+                        <h2>Temukan Saya</h2>
+                        <ul>
+                            <li><a href="https://www.instagram.com/spamekls_tarii?igsh=MTFtYXBiZTJ3ZXBlaA=="></a></li>
+                            <li><a href="https://www.instagram.com/spamekls_tarii?igsh=MTFtYXBiZTJ3ZXBlaA=="></a></li>
+                            </ul>
+                        </aside>
+
+                    </main>
+
+                    <footer id="kontak">
+                        <p>&copy; 2025 Eka lestari. Semua hak dilindungi.</p>
+                        <p>Email: ekhaaaaa1509@gmail.com<a href=></a></p>
+                        </footer>
+
+                    </body>
+                    </html>
